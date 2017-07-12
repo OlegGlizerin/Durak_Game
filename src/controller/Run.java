@@ -23,7 +23,7 @@ public class Run {
         ((Observable) modelDurak).addObserver(presenter);
         System.out.println("observers initialized");
         viewThread.start();
-        System.out.println("dfsg");//
+        System.out.println("dfsg");///
 
 
 
