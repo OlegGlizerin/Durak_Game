@@ -12,8 +12,8 @@ public class BoardView {
     private Image[][] images = new Image[4][9];
     private Image[][] imagesRotated = new Image[4][9];
     
-    private String path = "C:\\Users\\HawkEye\\IdeaProjects\\DurakGame\\images\\cards\\";
-    private String pathRotated = "C:\\Users\\HawkEye\\IdeaProjects\\DurakGame\\images\\rotated.cards\\";
+    private String path = "C:\\Users\\HawkEye\\IdeaProjects\\Durak_Game\\images\\cards\\";
+    private String pathRotated = "C:\\Users\\HawkEye\\IdeaProjects\\Durak_Game\\images\\rotated.cards\\";
 
 
     private Image background;
@@ -101,7 +101,7 @@ public class BoardView {
         imagesRotated[3][7] = new Image(display, pathRotated + "k_diamond.jpg");
         imagesRotated[3][8] = new Image(display, pathRotated + "a_diamond.jpg");
 
-        background = new Image(display, "C:\\Users\\HawkEye\\IdeaProjects\\DurakGame\\images\\cardBackground.jpg");
+        background = new Image(display, "C:\\Users\\HawkEye\\IdeaProjects\\Durak_Game\\images\\cardBackground.jpg");
     }
     
     public Image getImage(Card card) {

@@ -61,7 +61,7 @@ public class SinglePlayerMenu{
                         oneComputer.dispose();
                         twoComputer.dispose();
 
-                        Image i = new Image(shell.getDisplay(), "C:\\Users\\HawkEye\\IdeaProjects\\DurakGame\\images\\33.jpg");
+                        Image i = new Image(shell.getDisplay(), "C:\\Users\\HawkEye\\IdeaProjects\\Durak_Game\\images\\33.jpg");
                         Rectangle rect = shell.getClientArea();
                         Image newImage = new Image(display, Math.max(1, rect.width), 1);
                         GC gc = new GC(i);

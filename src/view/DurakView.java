@@ -161,7 +161,7 @@ public class DurakView extends Observable implements View, Runnable{
 
         shell.setLayout(new GridLayout(3,true));
 
-        Image i = new Image(shell.getDisplay(), "C:\\Users\\HawkEye\\IdeaProjects\\DurakGame\\images\\22.jpg");
+        Image i = new Image(shell.getDisplay(), "C:\\Users\\HawkEye\\IdeaProjects\\Durak_Game\\images\\22.jpg");
         Rectangle rect = shell.getClientArea();
         Image newImage = new Image(display, Math.max(1, rect.width), 1);
         GC gc = new GC(i);
